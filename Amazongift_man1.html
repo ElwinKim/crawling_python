@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>CSS Grid</title>
+    <style>
+        .wrapper {
+            display: grid;
+            /* grid-template-columns: 1fr 1fr 1fr; */
+            grid-template-columns: repeat(4, 1fr);
+
+            /* grid-auto-rows:100px; */
+            grid-auto-rows: minmax(100px, auto);
+
+        }
+
+        .wrapper > div {
+            background: #eee;
+            padding: 1em;
+        }
+
+        wrapper > div:nth-child(odd) {
+            background: #ddd;
+        }
+
+    </style>
+</head>
+<body>
+<div class="wrapper" id="gft-man-00">
+    <div align="center" id="Amazongift0">
+        <a href="https://www.amazon.ca/dp/B00YRA5BB2/ref=cm_gf_aAM_i20_d_p0_c0_qd0___________________1iFGUVJBvEI98812eEiG">
+            <img height="150px" src="https://images-na.ssl-images-amazon.com/images/I/810KnBelQtL._AC_SY149_.jpg"/>
+        </a>
+        <div class="title">title1 test hahahahhahahahah
+        </div>
+        <span class="dollar" style="font-size: large">$20.22</span>
+        <div align="right">
+            <button style="width: 100px;height: 30px; font-size: 11pt; " type="button">Check It Out</button>
+        </div>
+    </div>
+<div align="center" id="Amazongift1">
+    <img height="150px" src="https://images-na.ssl-images-amazon.com/images/I/51KfGqD5pqL._AC_SY149_.jpg"/>
+    <div class="title">That's All You Are a Good Dad Coffee Mug, 16 oz
+        <span class="dollar" style="font-size: large">$20.22 </span>
+        <div align="right">
+            <button style="width: 100px;height: 30px; font-size: 11pt; " type="button">Check It Out</button>
+        </div>
+    </div>
+    <div align="center" id="Amazongift2">
+        <img alt="" height="150px" src="https://images-na.ssl-images-amazon.com/images/I/31CfD8GHDuL._AC_SY209_.jpg"/>
+        <div class="title">ALASKA BEAR - Classic Cash Money Clip Credit Card Holder</div>
+        <span class="dollar" style="font-size: large">$20.22 </span>
+        <button style="width: 100px;height: 30px; font-size: 11pt; " type="button">Check It Out</button>
+    </div>
+    <div align="center" id="Amazongift3">
+        <img alt="" height="150px" src="https://images-na.ssl-images-amazon.com/images/I/613RMluC6oL._AC_SY149_.jpg"/>
+        <div class="title">Python Clip - Stainless Steel Keychain Carabiner with Gate Gua...</div>
+        <span class="dollar" style="font-size: large">$20.22 </span>
+        <button style="width: 100px;height: 30px; font-size: 11pt; " type="button">Check It Out</button>
+    </div>
+    <div align="center" id="Amazongift4">
+        <img height="150px" src="https://images-na.ssl-images-amazon.com/images/I/810KnBelQtL._AC_SY149_.jpg"/>
+        <div class="title">Trend Lab Northwoods Storage Caddy, Red/Tan</div>
+        <span class="dollar" style="font-size: large">$20.22 </span>
+        <button style="width: 100px;height: 30px; font-size: 11pt; " type="button">Check It Out</button>
+    </div>
+    <div align="center" id="Amazongift5">
+        <img height="150px" src="https://images-na.ssl-images-amazon.com/images/I/51KfGqD5pqL._AC_SY149_.jpg"/>
+        <div class="title">Espresso Coffee Poster - Exceptional Expressions of Espresso C...</div>
+        <span class="dollar" style="font-size: large">$20.22 </span>
+        <button style="width: 100px;height: 30px; font-size: 11pt; " type="button">Check It Out</button>
+    </div>
+    <div align="center" id="Amazongift6">
+        <img height="150px" src="https://images-na.ssl-images-amazon.com/images/I/81xLqYiXBoL._AC_SY149_.jpg"/>
+        <div class="7"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta dolores doloribus illum labore
+            necessitatibus quod repellendus sapiente sit temporibus ullam!
+        </div>
+        <span class="dollar" style="font-size: large">$20.22 </span>
+        <button style="width: 100px;height: 30px; font-size: 11pt; " type="button">Check It Out</button>
+    </div>
+    <div align="center" id="Amazongift7">
+        <img alt="" height="150px" src="https://images-na.ssl-images-amazon.com/images/I/613RMluC6oL._AC_SY149_.jpg"/>
+        <div class="title">Wahoo TICKR X Heart Rate Monitor with Memory, Bluetooth/ANT+</div>
+        <span style="font-size: large">$20.22 </span>
+        <button style="width: 100px;height: 30px; font-size: 11pt; " type="button">Check It Out</button>
+    </div>
+    <div align="center" id="Amazongift8">
+        <img height="150px" src="https://images-na.ssl-images-amazon.com/images/I/810KnBelQtL._AC_SY149_.jpg"/>
+        <div class="title">BAR - Illuminated Marquee Bar Sign - Lighted LED Marquee Word ...</div>
+        <span class="dollar" style="font-size: large">$20.22 </span>
+        <button style="width: 100px;height: 30px; font-size: 11pt; " type="button">Check It Out</button>
+    </div>
+    <div align="center" id="Amazongift9">
+        <img height="150px" src="https://images-na.ssl-images-amazon.com/images/I/51KfGqD5pqL._AC_SY149_.jpg"/>
+        <div class="10"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta dolores doloribus illum labore
+            necessitatibus quod repellendus sapiente sit temporibus ullam!
+        </div>
+        <span class="dollar" style="font-size: large">$20.22 </span>
+        <button style="width: 100px;height: 30px; font-size: 11pt; " type="button">Check It Out</button>
+    </div>
+    <div align="center" id="Amazongift10">
+        <img height="150px" src="https://images-na.ssl-images-amazon.com/images/I/81xLqYiXBoL._AC_SY149_.jpg"/>
+        <div class="title">August Smart Lock HomeKit Enabled (Silver) (Works with Amazon ...</div>
+        <span class="dollar" style="font-size: large">$20.22 </span>
+        <button style="width: 100px;height: 30px; font-size: 11pt; " type="button">Check It Out</button>
+    </div>
+    <div align="center" id="Amazongift11">
+        <img alt="" height="150px" src="https://images-na.ssl-images-amazon.com/images/I/613RMluC6oL._AC_SY149_.jpg"/>
+        <div class="title">Valentino Uomo Intense by Valentino EDP 3.4 oz/ 100 ML for Men</div>
+        <span class="dollar" style="font-size: large">$20.22 </span>
+        <button style="width: 100px;height: 30px; font-size: 11pt; " type="button">Check It Out</button>
+    </div>
+    <div align="center" id="Amazongift12">
+        <img height="150px" src="https://images-na.ssl-images-amazon.com/images/I/810KnBelQtL._AC_SY149_.jpg"/>
+        <div class="title">Skagen Men's SKW6352 Signatur Brown Leather Watch</div>
+        <span class="dollar" style="font-size: large">$20.22 </span>
+        <button style="width: 100px;height: 30px; font-size: 11pt; " type="button">Check It Out</button>
+    </div>
+    <div align="center" id="Amazongift13">
+        <img height="150px" src="https://images-na.ssl-images-amazon.com/images/I/51KfGqD5pqL._AC_SY149_.jpg"/>
+        <div class="title">ZEUS 100% Boar Beard Brush for Men Medium Firm Bristles</div>
+        <span class="dollar" style="font-size: large">$20.22 </span>
+        <button style="width: 100px;height: 30px; font-size: 11pt; " type="button">Check It Out</button>
+    </div>
+    <div align="center" id="Amazongift14">
+        <img alt="" height="150px" src="https://images-na.ssl-images-amazon.com/images/I/81oEwr3GxxL._AC_SY209_.jpg"/>
+        <div class="title">Wahl Professional Sterling Li Pro Clipper #8546 Great for Prof...</div>
+        <span class="dollar" style="font-size: large">$20.22</span>
+        <button style="width: 100px;height: 30px; font-size: 11pt; " type="button">Check It Out</button>
+    </div>
+    <div align="center" id="Amazongift15">
+        <img alt="" height="150px" src="https://images-na.ssl-images-amazon.com/images/I/613RMluC6oL._AC_SY149_.jpg"/>
+        <div class="title">moscow mule 4 (copper jigger)</div>
+        <span class="dollar" style="font-size: large">$20.22</span>
+        <button style="width: 100px;height: 30px; font-size: 11pt; " type="button">Check It Out</button>
+    </div>
+    <div align="center" id="Amazongift16">
+        <img alt="" height="150px" src="https://images-na.ssl-images-amazon.com/images/I/613RMluC6oL._AC_SY149_.jpg"/>
+        <div class="title">- I survived another meeting that should have been an email - ...</div>
+        <span class="dollar" style="font-size: large">$20.22</span>
+        <button style="width: 100px;height: 30px; font-size: 11pt; " type="button">Check It Out</button>
+    </div>
+    <div align="center" id="Amazongift17">
+        <img alt="" height="150px" src="https://images-na.ssl-images-amazon.com/images/I/613RMluC6oL._AC_SY149_.jpg"/>
+        <div class="title">Zoku ZK104 Storage Case, White</div>
+        <span class="dollar" style="font-size: large">$20.22</span>
+        <button style="width: 100px;height: 30px; font-size: 11pt; " type="button">Check It Out</button>
+    </div>
+    <div align="center" id="Amazongift18">
+        <img alt="" height="150px" src="https://images-na.ssl-images-amazon.com/images/I/613RMluC6oL._AC_SY149_.jpg"/>
+        <div class="title">The Art of Shaving Beard Conditioner Peppermint, 120ml</div>
+        <span class="dollar" style="font-size: large">$20.22</span>
+        <button style="width: 100px;height: 30px; font-size: 11pt; " type="button">Check It Out</button>
+    </div>
+    <div align="center" id="Amazongift19">
+        <img alt="" height="150px" src="https://images-na.ssl-images-amazon.com/images/I/613RMluC6oL._AC_SY149_.jpg"/>
+        <div class="title">Match Men's K|G Series Shawl Collar Cardigan Sweater</div>
+        <span class="dollar" style="font-size: large">$20.22</span>
+        <button style="width: 100px;height: 30px; font-size: 11pt; " type="button">Check It Out</button>
+    </div>
+</div>
+</body>
+</html>
