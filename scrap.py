@@ -38,7 +38,7 @@ def get_elements(elements):
         else:
             pass
         if href:
-            link = href + "&tag=elwin01-20"
+            link = href
             # href_tag = "<a href=" + link + ">"
             attr_tuple = attr_tuple + (link,)
         else:

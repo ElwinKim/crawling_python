@@ -13,10 +13,13 @@ class MakeHtml:
         MakeHtml.project_name = project_name
         MakeHtml.file_name = file_name
         MakeHtml.elements_list = elements_list
+
         self.update_html()
+
 
     @staticmethod
     def update_html():
+        
         with open(MakeHtml.file_name) as file:
             html_parse = file.read()
         soup = BeautifulSoup(html_parse, 'html.parser')
@@ -52,17 +55,16 @@ class MakeHtml:
         for p in price:
             p.string = MakeHtml.elements_list[k][1]
             k += 1
+            
 
     # save the file again
-        f_num = 1
-        if not os.path.isfile(MakeHtml.project_name+str(f_num)+".html"):
-            with open(MakeHtml.project_name+str(f_num)+".html", "w") as outf:
+        if not os.path.isfile(MakeHtml.project_name+".html"):
+            with open(MakeHtml.project_name+".html", "w") as outf:
                 outf.write(str(soup))
-            f_num += 1
         else:
-            with open(MakeHtml.project_name+str(f_num+1)+".html", "w") as outf:
+            with open(MakeHtml.project_name+".html", "w") as outf:
                 outf.write(str(soup))
-            f_num += 1
+        
 
 
 

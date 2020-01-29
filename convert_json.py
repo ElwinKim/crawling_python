@@ -1,11 +1,6 @@
 import json
 
 import os
-# #Read JSON data into the datastore variable
-#
-#
-# #Use the new datastore datastructure
-# print datastore["office"]["parking"]["style"]
 
 class MakeJson:
     projectName = ''
@@ -60,11 +55,3 @@ class MakeJson:
 
 
 
-    # if filename:
-    #     with open(filename, 'r') as f:
-    #         datastore = json.load(f)
-    # json_str = json.dumps(attr_list);
-    # file_path = os.path.join(project_name, filename)
-    #
-    # if not os.path.isfile(file_path):
-    #     write_file(file_path, json_str)
