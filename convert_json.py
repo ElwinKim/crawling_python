@@ -7,7 +7,7 @@ class MakeJson:
     elementsList = ''
     fileName = ''
 
-    def __init__(self, projectName, elementsList, fileName):
+    def __init__(self, projectName, fileName, elementsList):
         MakeJson.projectName = projectName
         MakeJson.elementsList = elementsList
         MakeJson.fileName = fileName

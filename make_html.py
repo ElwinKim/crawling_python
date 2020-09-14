@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 import os
 import time
 
-
 class MakeHtml:
     project_name = ''
     file_name = ''

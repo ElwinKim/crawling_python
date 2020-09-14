@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-
+# Using Scrap_url
 def scrap_url(url, div_id):
     driver = webdriver.Chrome()
 
@@ -39,12 +39,12 @@ def get_elements(elements):
             pass
         if href:
             link = href
-            # href_tag = "<a href=" + link + ">"
+            #href_tag = "<a href=" + link + ">"
             attr_tuple = attr_tuple + (link,)
         else:
             pass
         if image:
-            # image_tag = href_tag + "<img src=" + image + ">" + "</a>"
+            #image_tag = href_tag + "<img src=" + image + ">" + "</a>"
             attr_tuple = attr_tuple + (image,)
             attr_list.append(attr_tuple)
 
